@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body {
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row-reverse;
+}
+#main-doc {
+  border-left: solid black;
+  margin-left: 220px;
+  margin-right: 40px;
+}
+#pangsit {
+  margin-top: 20px;
+}
+.judul {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 700;
+}
+.main-section {
+  margin-left: 20px;
+}
+.text-ket {
+  margin-left: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  margin-top: 50px;
+  text-transform: capitalize;
+}
+#navbar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 18px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin-top: 20px;
+}
+img {
+  width: 70px;
+}
+.nav-title {
+  font-weight: 700;
+}
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+}
